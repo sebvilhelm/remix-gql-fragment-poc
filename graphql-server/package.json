@@ -1,0 +1,17 @@
+{
+  "name": "graphql-server",
+  "private": true,
+  "type": "module",
+  "main": "main.mjs",
+  "scripts": {
+    "dev": "nodemon main.mjs",
+    "start": "node main.mjs"
+  },
+  "dependencies": {
+    "dataloader": "^2.2.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
